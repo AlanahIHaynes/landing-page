@@ -5,12 +5,12 @@ body{
 }
 
 .header, .footer{
-    background-color: #1F2937;
+    background-color: #E5E7EB;
 }
 
 .logo img{
     height: auto;
-    width: 150px;
+    width: 125px;
     
 }
 
@@ -31,7 +31,7 @@ ul{
 a:link, a:visited, a:hover, a:active{
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #1F2937;
 }
 
 .section-one{
@@ -40,7 +40,7 @@ a:link, a:visited, a:hover, a:active{
     padding-right: 150px;
     padding-bottom: 150px;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #E5E7EB;
     flex: 0 1 auto;
     justify-content: end;
     gap: 100px;
@@ -50,6 +50,8 @@ a:link, a:visited, a:hover, a:active{
     width: 300px;
     height: auto;
     flex: 1 1 0;
+    border: 8px solid rgb(181, 250, 156);
+    border-radius: 8px;
 }
 
 .content-one{
@@ -85,7 +87,7 @@ a:link, a:visited, a:hover, a:active{
 .content-one-info h2{
     font-size: 48px;
     font-weight: extra-bold;
-    color:#F9FAF8;
+    color:#1F2937;
     padding-bottom: 0px;
     margin-bottom: 0;
     margin-top: 0;
@@ -93,6 +95,119 @@ a:link, a:visited, a:hover, a:active{
 
 .content-one-info p{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #1F2937;
 }
 
+.section-two{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: start;
+    align-items: center;
+}
+
+.section-two h2{
+    font-size: 48px;
+}
+
+.section-two .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: start;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.section-two .card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    font-size: 18px;
+    color:#1F2937;
+    width: 200px;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.section-two .card img{
+    border: 8px solid rgb(181, 250, 156);
+    border-radius: 8px;
+    width: 250px;
+    height:200px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.section-two .card.one img{
+    object-position: 70% 30%;
+}
+
+.section-two .card.two img{
+    object-position: 10% 90%;
+}
+
+.section-two .card.four img{
+    object-position: 30% 70%;
+}
+
+.section-three h1{
+    font-size: 64px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.section-three{
+    background-color: rgb(181, 250, 156);
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three p{
+    font-size: 24px;
+    color:#1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.section-four .message-box{
+    display: flex;
+    margin: 150px;
+    padding: 70px;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    align-items: left;
+    border: 8px solid rgb(181, 250, 156);
+    border-radius: 8px;
+    background-color: rgb(181, 250, 156);
+    color: #1F2937;
+}
+
+.section-four button{
+    background-color: #F9FAF8;
+    border: 8px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.section-four p{
+    font-size: 20px;
+}
+
+.section-four .subtext{
+    font-weight:light;
+    font-style: italic;
+    font-size: 15px;
+}
