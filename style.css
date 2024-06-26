@@ -120,6 +120,8 @@ a:link, a:visited, a:hover, a:active{
     align-items: start;
     padding-left: 150px;
     padding-right: 150px;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
 }
 
 .section-two .card{
@@ -132,7 +134,7 @@ a:link, a:visited, a:hover, a:active{
     width: 200px;
     align-items: center;
     padding: 20px;
-    flex: 1 1 auto;
+   
     
 }
 
