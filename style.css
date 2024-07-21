@@ -214,3 +214,52 @@ a:link, a:visited, a:hover, a:active{
     font-style: italic;
     font-size: 15px;
 }
+
+.projects{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    flex-direction: column;
+}
+
+.projects h2{
+    font-size: 48px;
+}
+
+.project-links{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-links img{
+    border: solid;
+    border-radius: 100px;
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    object-position: 70% 30%;
+}
+
+.project-links .project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-links button{
+    font-size: 24px;
+    background-color: rgb(181, 250, 156);
+    color: black;
+    border: solid;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px;
+
+    
+}
